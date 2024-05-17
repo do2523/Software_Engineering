@@ -1,23 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');* 
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+* { margin: 0; padding: 0; box-sizing: border-box; }
 
-body {
-  display: flex;
-  flex-direction: column;
-  background-color: #FFF;
-}
+body { display: flex; flex-direction: column; background-color: #FFF; }
 
 header { 
-  padding: 10px; 
-  background-image: linear-gradient(to bottom,rgb(117, 8, 207), rgba(13, 113, 206, 0.959)); 
-  color: #FFF; 
-  max-height: 100px; 
-  width: 100%; 
+  padding: 10px; color: #FFF; max-height: 100px;  width: 100%; 
+  background-image: linear-gradient(to bottom,rgb(117, 8, 207), rgba(13, 113, 206, 0.959));  
 }
 header img { position: relative; scale: 0.2; bottom: 70px; right: 80px; }
 header ul { display: inline-flex; float: right; margin: 30px 35px; }
@@ -28,13 +17,14 @@ header ul li {
   margin-left: 10px; 
   font-weight: 900;
 }
-header ul li a { text-decoration: none; color: #FFF; }
+header ul li a { text-decoration: none; color: #FFF; box-shadow: #FFF 0 2px 2px;}
 header ul li a:hover { cursor: pointer; color: #e0d9d9; }
 
+i {
+  margin-right: 5px;
+}
 
-div .purple { border: solid 10px blueviolet; width: 100vw; }
-div .white { border: solid 10px bisque; width: 100vw; }
-div .blue { border: solid 10px rgb(0, 140, 255); width: 100vw; }
+.white { border: solid 2px #FFF; width: 100vw; padding: 5px; border-radius: 5px;}
 
 .container { margin: 20px; position: relative; }
 
@@ -42,8 +32,9 @@ main { margin: 10px; }
 
 .hero h1 { 
   position: absolute;
-  left: 38%;
-  top: 40%;
+  left: 31%;
+  top: 10%;
+  font-size: 60px;
   font-family: "Roboto", sans-serif; 
   font-weight: 500; 
   font-style: normal;
@@ -51,3 +42,4 @@ main { margin: 10px; }
   color: #FFF;
 }
 .hero img { display: block; width: 100%; max-height: 400px; overflow: hidden;}
+.hero p { position: absolute; font-size: 14px; color: #FFF; top: 70%; left: 39%; max-width: 330px; font-weight: 800;}
