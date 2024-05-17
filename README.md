@@ -6,4 +6,4 @@ Programming reference website for FSW Computer Science Club
 
 ![Header Revisions](backend/02-backend-progress-preview.png)
 
-`05-17-2024` CSS Cuts/Additions, Logo Link, Hero Description 
+`05-17-2024` CSS Cuts/Additions, Logo Link, Hero Description - AS 
