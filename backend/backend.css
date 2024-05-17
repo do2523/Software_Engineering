@@ -17,14 +17,12 @@ header ul li {
   margin-left: 10px; 
   font-weight: 900;
 }
-header ul li a { text-decoration: none; color: #FFF; box-shadow: #FFF 0 2px 2px;}
-header ul li a:hover { cursor: pointer; color: #e0d9d9; }
+header ul li a { text-decoration: none; color: #FFF; }
+header ul li a:hover { cursor: pointer; border-bottom: solid #FFF 5px; border-radius: 5px;}
 
 i {
-  margin-right: 4px;
+  margin-right: 5px;
 }
-
-.white { border: solid 2px #FFF; width: 100vw; padding: 5px; border-radius: 5px;}
 
 .container { margin: 20px; position: relative; }
 
