@@ -21,7 +21,7 @@ header ul li a { text-decoration: none; color: #FFF; box-shadow: #FFF 0 2px 2px;
 header ul li a:hover { cursor: pointer; color: #e0d9d9; }
 
 i {
-  margin-right: 5px;
+  margin-right: 4px;
 }
 
 .white { border: solid 2px #FFF; width: 100vw; padding: 5px; border-radius: 5px;}
